@@ -1,0 +1,4 @@
+Hotel Management System (Java Project)
+
+This is a simple Hotel Management System I built using Java. It’s a menu-driven console application that helps manage common hotel tasks like booking rooms (luxury and deluxe, both single and double), storing customer details, ordering food for specific rooms, checking room availability, and generating bills. I’ve also used file handling to save the current state (like booked rooms and orders), so that data isn’t lost when the program is closed. When the system restarts, it loads the previous data from the file. I implemented exception handling to manage errors smoothly, and even added a custom exception when someone tries to book an already occupied room. File writing is handled using a separate thread to keep it efficient. This project helped me understand core Java concepts like classes and objects, inheritance, ArrayLists, file handling with objects, interfaces, and multithreading.
+
